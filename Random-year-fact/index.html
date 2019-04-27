@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lux/bootstrap.min.css">
+  <style>
+    #fact{
+      display:none;
+    }
+  </style>
+  <title>Year Facts</title>
+</head>
+<body class="bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <div class="card bg-primary text-white mt-5 p-3">
+          <h1 class="card-header">Year Facts</h1>
+          <p>Enter a year and get a random fact</p>
+          <input type="number" class="form-control form-control-lg" id="numberInput" placeholder="Enter any number...">
+          <button class="btn btn-info" id="getRandom">Get random year</button>
+          <div id="fact" class="card-body">
+            <h4 class="card-title">
+              Year Fact
+            </h4>
+            <p id="factText" class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
